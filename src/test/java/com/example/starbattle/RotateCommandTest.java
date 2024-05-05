@@ -11,7 +11,6 @@ import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
 public class RotateCommandTest {
-
     @Mock
     private Rotatable rotate;
 
