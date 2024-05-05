@@ -1,7 +1,11 @@
 package com.example.starbattle;
 
-public interface Move {
-    Vector getPosition();
-    Vector getVelocity();
-    Vector setPosition(Vector newValue);
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+public class Move {
+
+    private Vector position;
+    private Vector velocity;
+
 }

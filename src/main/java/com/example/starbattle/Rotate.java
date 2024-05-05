@@ -1,8 +1,11 @@
 package com.example.starbattle;
 
-public interface Rotate {
-    int getDirection();
-    int getAngularVelocity();
-    void setDirection(int newV);
-    int getDirectionsNumber();
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+public class Rotate {
+
+    int direction;
+    int angularVelocity;
+    int directionsNumber;
 }
