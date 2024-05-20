@@ -8,7 +8,7 @@ import lombok.*;
 @Data
 public class Vector {
 
-    private int x;
-    private int y;
+    private double x;
+    private double y;
 
 }

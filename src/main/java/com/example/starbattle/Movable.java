@@ -4,4 +4,6 @@ public interface Movable {
     Vector getPosition();
     Vector getVelocity();
     Vector setPosition(Vector newValue);
+
+    Vector setVelocity(Vector newValue);
 }
