@@ -8,7 +8,7 @@ public class RotateCommand implements Command {
 
     @Override
     public void execute() {
-        int newDirection = (this.rotatable.getDirection() + this.rotatable.getAngularVelocity()) % this.rotatable.getDirectionsNumber();
+        int newDirection = this.rotatable.getDirection() + this.rotatable.getAngularVelocity();
         rotatable.setDirection(newDirection);
     }
 }
